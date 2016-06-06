@@ -1,0 +1,43 @@
+
+**********************************************************
+		  FIXED TAG CALIBRATION 
+**********************************************************
+DESCRIPTION: 
+
+	The tags are fixed in the table. Camera records xyz from each tag. Compute rigid transformation from cam_tags to world_tags. Record on file. 
+Files saved in /home/cat/catkin_ws/src/biovision/cat_robotcam_calibration/calibration_matrix
+The pose of the tags comes from Apriltags, which matches the corners of the tags found with a square with the size specified (0.048 m). The tf from world->worldTB and world->tag are recorded in files robot_tf_publishing.launch and tags_tf_publishing.launch in folder 
+/home/cat/catkin_ws/src/biovision/cat_move_to_target/launch
+
+HOW TO RUN: 
+
+roslaunch cat_move_to_target camera_tags.launch
+
+rosrun cat_robotcam_calibration fixedTag_calibration 
+
+COMENTS: 
+still could have improvements. still some error (see PD (predictions) and GT (ground truth). maybe a better check of the tag stability
+
+TO DO:
+base on pixels and not in xyz. there is code for this,although not fully implemented ( problems passing from projection matrix to a robust r, t martix). this way we avoid the match between corners and a model sqr
+
+
+
+**********************************************************
+		  OLD CALIBRATION 
+**********************************************************
+DESCRIPTION: 
+
+	Move the manipulator into several spots and recover the tag pose. Write to file and record the matrix. the tf are listened and 
+the tf from the camera to the world (basis of the robot) is computed as an average of all the tf recorded. the pose of the tags comes from Apriltags, which matches the corners of the tags found with a square with the size specified (0.048 m). The tf from world->worldTB and world->tag are recorded in files robot_tf_publishing.launch and tags_tf_publishing.launch in folder 
+/home/cat/catkin_ws/src/biovision/cat_move_to_target/launch
+
+HOW TO RUN: 
+
+roslaunch cat_robotcam_calibration backFunction_calibration.launch
+
+roslaunch cat_robotcam_calibration run_calibration_new.launch
+
+COMENTS: 
+the mean is not a robust statistic form to do this. should be done with least sqrs, for instance. (see fixed tag calibration) 
+also the matching with the sqr can give errors. 

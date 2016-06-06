@@ -1,0 +1,555 @@
+#include <../include/cat_robotcam_calibration/calculateExtrinsics.hpp>
+
+void TFWorldToCamClass::printAllToFile() {
+
+    storing_file.open("/home/cat/catkin_ws/src/biovision/cat_robotcam_calibration/files/logfile_tfCamWorld.txt");
+
+    storing_file << " ----------------------------------------------- " << std::endl;
+    storing_file << "               STORING FILE                      " << std::endl;
+    storing_file << ros::Time::now() << std::endl;
+    storing_file << " ----------------------------------------------- " << std::endl;
+
+    for (int i =0; i< tf_xyz.size(); i++)
+    {
+        // store tag id
+        storing_file << " ----------------------------------------------- " << std::endl;
+        storing_file << "TAG ID : " << this->tf_tagID[i] << std::endl;
+
+        //store cam -> tag
+        storing_file << "Cam->Tag pose : " << std::endl << this->tf_camToTagPose_store[i] << std::endl;
+
+
+        // store xyz and rotation
+        storing_file << "tf cam->world : " << std::endl << this->tf_xyz[i]
+                        << std::endl << this->tf_rotation_matrix[i] << std::endl;
+    }
+
+    storing_file << " ----------------------------------------------- " << std::endl;
+    storing_file << "             end of STORING FILE                 " << std::endl;
+    storing_file << " ----------------------------------------------- " << std::endl;
+
+    storing_file.close();
+
+}
+
+void TFWorldToCamClass::printCalibrationToFile() {
+
+    storing_file.open("/home/cat/catkin_ws/src/biovision/cat_robotcam_calibration/files/logfile_pmatrixcalibration.txt");
+
+    storing_file << " ----------------------------------------------- " << std::endl;
+    storing_file << "               STORING FILE                      " << std::endl;
+    storing_file << ros::Time::now() << std::endl;
+    storing_file << " ----------------------------------------------- " << std::endl;
+
+    for (int i =0; i< calibtagIds.size(); i++)
+    {
+        // store tag id
+        storing_file << " ----------------------------------------------- " << std::endl;
+        storing_file << "TAG ID : " << calibtagIds[i] << std::endl;
+
+        storing_file << "XYZ world : " << std::endl << this->xyz_world[i] << std::endl;
+        storing_file << "XYZ cam   : " << std::endl << this->xyz_cam[i] << std::endl;
+    }
+    storing_file << " ----------------------------------------------- " << std::endl;
+    storing_file << "             CALIBRATION MATRIX                  " << std::endl;
+    storing_file << " ----------------------------------------------- " << std::endl;
+    storing_file << world_to_cam_T << std::endl;
+
+
+    storing_file << " ----------------------------------------------- " << std::endl;
+    storing_file << "             end of STORING FILE                 " << std::endl;
+    storing_file << " ----------------------------------------------- " << std::endl;
+
+    storing_file.close();
+
+}
+
+void TFWorldToCamClass::loadXYZWORLDtags(){
+    xyz_world.resize(8);
+    calibtagIds.resize(8);
+    xyz_cam.resize(8);
+
+    Eigen::Vector3d xyz_world_tag;
+    //tag0
+    xyz_world_tag << 0.7005, 0.024, 0.0;
+    xyz_world[0]= xyz_world_tag;
+    calibtagIds[0] = 0;
+
+    //tag1
+    xyz_world_tag << 0.40, 0.024, 0.0;
+    xyz_world[1]= xyz_world_tag;
+    calibtagIds[1] = 1;
+
+    //tag2
+    xyz_world_tag << 0.2495, 0.024, 0.0;
+    xyz_world[2]= xyz_world_tag;
+    calibtagIds[2] = 2;
+
+    //tag11
+    xyz_world_tag << 0.402, 0.19, 0.0;
+    xyz_world[3]= xyz_world_tag;
+    calibtagIds[3] = 11;
+
+    //tag4
+    xyz_world_tag << 0.449, -0.004, 0.16627;
+    xyz_world[4]= xyz_world_tag;
+    calibtagIds[4] = 4;
+
+    //tag5
+    xyz_world_tag << 0.449, -0.004, 0.11877;
+    xyz_world[5]= xyz_world_tag;
+    calibtagIds[5] = 5;
+
+    //tag6
+    xyz_world_tag << 0.449, -0.004, 0.07127;
+    xyz_world[6]= xyz_world_tag;
+    calibtagIds[6] = 6;
+
+    //tag7
+    xyz_world_tag << 0.449, -0.004, 0.02377;
+    xyz_world[7]= xyz_world_tag;
+    calibtagIds[7] = 7;
+
+    for (int i=0; i< xyz_cam.size(); i++)
+    {
+        std::cout << "  -------------------------------- " << std::endl;
+        std::cout << "  TAG # " << calibtagIds[i]  << std::endl;
+        std::cout << " WORLD " << std::endl << xyz_world[i] << std::endl;
+    }
+}
+
+void TFWorldToCamClass::loadXYZCAMtags(){
+    Eigen::Vector3d xyz_cam_tag;
+
+    for (int i =0; i< calibtagIds.size(); i++)
+    {
+        // find
+        std::vector<int>::iterator iter = std::find(this->tf_tagID.begin(), this->tf_tagID.end(), calibtagIds[i]);
+        size_t index = std::distance(tf_tagID.begin(), iter);
+        if(index == tf_tagID.size())
+        {
+            std::cout << "Cannot find tag " << calibtagIds[i] << std::endl;
+            xyz_cam_tag << -1000, -1000, -1000;
+
+            xyz_cam[i] = xyz_cam_tag;
+            continue;
+        }
+        else
+        {
+
+            geometry_msgs::PoseStamped pos = this->tf_camToTagPose_store[index];
+            xyz_cam_tag << pos.pose.position.x, pos.pose.position.y, pos.pose.position.z;
+
+            xyz_cam[i] = xyz_cam_tag;
+        }
+    }
+
+    for (int i =0; i< calibtagIds.size(); i++)
+    {
+        std::cout << " TAG # " << calibtagIds[i] << std::endl;
+        std::cout << " XYZ_cam " <<  xyz_cam[i]<< std::endl;
+    }
+}
+
+void TFWorldToCamClass::addGentry(Eigen::Vector3d xyz_world, Eigen::Vector3d xyz_cam){
+
+    Eigen::MatrixXd Gentry(2, 12);
+
+    double x_cam = xyz_cam(0) / xyz_cam(2);
+    double y_cam = xyz_cam(1) / xyz_cam(2);
+
+    Gentry << xyz_world(0), xyz_world(1), xyz_world(2), 1,
+            0, 0, 0, 0,
+            -x_cam*xyz_world(0), -x_cam*xyz_world(1), -x_cam*xyz_world(2), -x_cam,
+            0, 0, 0, 0,
+            xyz_world(0), xyz_world(1), xyz_world(2), 1,
+            -y_cam*xyz_world(0), -y_cam*xyz_world(1), -y_cam*xyz_world(2), -y_cam;
+
+    if(G_matrix.rows() ==0)
+    {
+        G_matrix.resize(2, 12);
+        G_matrix << Gentry;
+    }
+    else
+    {
+        Eigen::MatrixXd temp_matrix(G_matrix.rows(), G_matrix.cols());
+        temp_matrix << G_matrix;
+        G_matrix.resize(G_matrix.rows()+2, G_matrix.cols());
+        G_matrix << temp_matrix, Gentry;
+    }
+
+}
+
+void TFWorldToCamClass::constructPmatrix(){
+
+    // create G matrix
+    for (int i=0; i< xyz_cam.size(); i++)
+    {
+        Eigen::Vector3d temp = xyz_cam[i];
+        if(temp(0) != -1000 & temp(1) != -1000 & temp(2) != -1000)
+            addGentry(xyz_world[i], temp);
+    }
+
+    std::cout << "  -------------------------------- " << std::endl;
+    std::cout << " G matrix " << std::endl << G_matrix << std::endl;
+
+    // compute P matrix
+
+    Eigen::JacobiSVD<Eigen::MatrixXd> svd(G_matrix, Eigen::ComputeThinU | Eigen::ComputeThinV);
+    std::cout << "Its singular values are:" << std::endl << svd.singularValues() << std::endl;
+    std::cout << "Its left singular vectors are the columns of the thin U matrix:" << std::endl << svd.matrixU() << std::endl;
+
+    Eigen::MatrixXd eigenv_gtg(svd.matrixV().rows(), svd.matrixV().cols());
+    eigenv_gtg << svd.matrixV();
+    std::cout << "Its right singular vectors are the columns of the thin V matrix:" << std::endl << eigenv_gtg << std::endl;
+
+    Eigen::MatrixXd m_world_cam(4,4);
+    double cols_idx = eigenv_gtg.cols()-1;
+    m_world_cam <<  eigenv_gtg(0,cols_idx), eigenv_gtg(1,cols_idx), eigenv_gtg(2,cols_idx) , eigenv_gtg(3,cols_idx),
+                    eigenv_gtg(4,cols_idx), eigenv_gtg(5,cols_idx), eigenv_gtg(6,cols_idx) , eigenv_gtg(7,cols_idx),
+                    eigenv_gtg(8,cols_idx), eigenv_gtg(9,cols_idx), eigenv_gtg(10,cols_idx), eigenv_gtg(11,cols_idx),
+                    0                     , 0                     , 0                      , 1;
+
+    std::cout << "m_world_cam:" << std::endl << m_world_cam << std::endl;
+
+    this->world_to_cam_T.resize(4,4);
+    this->world_to_cam_T = m_world_cam;
+}
+
+bool TFWorldToCamClass::GetExtrinsicsFromTags(){
+
+    loadXYZWORLDtags();
+    loadXYZCAMtags();
+    constructPmatrix();
+    printCalibrationToFile();
+
+    return false;
+
+}
+
+
+CamExtrinsicsCalibration::CamExtrinsicsCalibration()
+{
+    this->intrinsic_camera_matrix << 529.6085148771313, 0, 318.3732583194404,
+            0, 529.3631821305655, 243.8970374362488,
+            0, 0, 1;
+
+    this->distortion_camera_matrix << 0.06015428950370723, -0.1531946478687832,
+            0.001782403245658974, 0.001616065169196731;
+}
+
+void CamExtrinsicsCalibration::addGentry(Eigen::Vector3d &xyz_world, Eigen::Vector3d &xyz_cam){
+
+    Eigen::MatrixXd Gentry(2, 12);
+
+    double x_cam = xyz_cam(0) / xyz_cam(2);
+    double y_cam = xyz_cam(1) / xyz_cam(2);
+
+    Gentry << xyz_world(0), xyz_world(1), xyz_world(2), 1,
+            0, 0, 0, 0,
+            -x_cam*xyz_world(0), -x_cam*xyz_world(1), -x_cam*xyz_world(2), -x_cam,
+            0, 0, 0, 0,
+            xyz_world(0), xyz_world(1), xyz_world(2), 1,
+            -y_cam*xyz_world(0), -y_cam*xyz_world(1), -y_cam*xyz_world(2), -y_cam;
+
+
+    if(G_matrix.rows() ==0)
+    {
+        G_matrix.resize(2, 12);
+        G_matrix << Gentry;
+    }
+    else
+    {
+        Eigen::MatrixXd temp_matrix(G_matrix.rows(), G_matrix.cols());
+        temp_matrix << G_matrix;
+        G_matrix.resize(G_matrix.rows()+2, G_matrix.cols());
+        G_matrix << temp_matrix, Gentry;
+    }
+}
+
+void CamExtrinsicsCalibration::getRotAndTfromPmatrix(Eigen::MatrixXd m_world_cam){
+
+    this->r_ = m_world_cam.block(0,0,3,3);
+
+    this->tc_ << m_world_cam(0,3) , m_world_cam(1,3) , m_world_cam(2,3) ;
+    this->tw_ = -r_.inverse()*this->tc_;
+
+    // make R orthonormal
+    Eigen::JacobiSVD<Eigen::MatrixXd> svd(this->r_, Eigen::ComputeThinU | Eigen::ComputeThinV);
+    Eigen::MatrixXd ident = Eigen::MatrixXd::Identity(svd.matrixU().cols(), svd.matrixV().rows());
+    this->r_orth_ = svd.matrixU()*ident*svd.matrixV().transpose();
+
+    std::cout << "determinant : " << (this->r_orth_).determinant() << std::endl;
+    std::cout << "r_orthonormal:" << std::endl << (this->r_orth_) << std::endl;
+
+    std::cout << "tc:" << std::endl << this->tc_ << std::endl;
+    std::cout << "tw:" << std::endl << this->tw_ << std::endl;
+}
+
+Eigen::MatrixXd CamExtrinsicsCalibration::constructPmatrix(std::vector<Eigen::Vector3d> &xyz_world, std::vector<Eigen::Vector3d> &xyz_cam, std::vector<int> tagIds){
+
+    // create G matrix
+    for (int i=0; i< xyz_world.size(); i++)
+    {
+        addGentry(xyz_world[i], xyz_cam[i]);
+    }
+
+
+    std::cout << "  -------------------------------- " << std::endl;
+    std::cout << " G matrix " << std::endl << G_matrix << std::endl;
+
+    // compute P matrix
+
+    Eigen::JacobiSVD<Eigen::MatrixXd> svd(G_matrix, Eigen::ComputeThinU | Eigen::ComputeThinV);
+    std::cout << "Its singular values are:" << std::endl << svd.singularValues() << std::endl;
+    std::cout << "Its left singular vectors are the columns of the thin U matrix:" << std::endl << svd.matrixU() << std::endl;
+
+    Eigen::MatrixXd eigenv_gtg(svd.matrixV().rows(), svd.matrixV().cols());
+    eigenv_gtg << svd.matrixV();
+    std::cout << "Its right singular vectors are the columns of the thin V matrix:" << std::endl << eigenv_gtg << std::endl;
+
+    Eigen::MatrixXd m_world_cam(4,4);
+    double cols_idx = eigenv_gtg.cols()-1;
+    m_world_cam <<  eigenv_gtg(0,cols_idx), eigenv_gtg(1,cols_idx), eigenv_gtg(2,cols_idx) , eigenv_gtg(3,cols_idx),
+            eigenv_gtg(4,cols_idx), eigenv_gtg(5,cols_idx), eigenv_gtg(6,cols_idx) , eigenv_gtg(7,cols_idx),
+            eigenv_gtg(8,cols_idx), eigenv_gtg(9,cols_idx), eigenv_gtg(10,cols_idx), eigenv_gtg(11,cols_idx),
+            0                     , 0                     , 0                      , 1;
+
+    std::cout << "m_world_cam:" << std::endl << m_world_cam << std::endl;
+
+    return m_world_cam;
+}
+
+
+std::vector<Eigen::Vector3d> CamExtrinsicsCalibration::cameraPixelsToUndistortXYZPoints(std::vector<Eigen::Vector3d> &uv_cam)
+{
+    std::vector<Eigen::Vector3d> xyz;
+    for (int i=0; i< uv_cam.size(); i++)
+    {
+
+    Eigen::Matrix3d cameraMatrix;
+    cameraMatrix << this->intrinsic_camera_matrix(0,0), 0, this->intrinsic_camera_matrix(0,2),
+                    0, this->intrinsic_camera_matrix(1,1), this->intrinsic_camera_matrix(1,2),
+                    0, 0, 1;
+    Eigen::Vector4d distCoeffs;
+    distCoeffs << this->distortion_camera_matrix(0),this->distortion_camera_matrix(1),
+                  this->distortion_camera_matrix(2),this->distortion_camera_matrix(3);
+
+    // passar de uv para xyz
+    Eigen::Vector3d xyz_distorted = cameraMatrix.inverse() * uv_cam[i];
+
+//    cv::Mat src (3,1,CV_64FC);
+//    src.at<double>(0,0) = xyz_distorted(0);
+//    src.at<double>(1,0) = xyz_distorted(1);
+//    src.at<double>(2,0) = xyz_distorted(2);
+
+//    cv::Mat dst(3,1,CV_64FC);
+//    cv::undistortPoints(src, dst, cameraMatrix, distCoeffs);
+
+//    //distorcer o xyz
+//    Eigen::Vector3d xyz_undistorted;
+//    double x = xyz_distorted(0);
+//    double y = xyz_distorted(1);
+//    double r = sqrt(x*x+y*y);
+//    double k1 = distCoeffs(0);
+//    double k2 = distCoeffs(1);
+//    double p1 = distCoeffs(2);
+//    double p2 = distCoeffs(3);
+
+//    double x_undistort = ( x *( 1 + (k1*r*r) + (k2 * r*r*r*r) )) +
+//            2*p1*x*y + p2*(r*r + 2*x*x);
+
+//    double y_undistort = ( y * (1 + (k1*r*r) + (k2 * r*r*r*r) )) +
+//                2*p2*y*x + p1*(r*r + 2*y*y);
+
+//    xyz_undistorted << x_undistort, y_undistort,  1.0;
+
+    Eigen::Vector3d uv_point = uv_cam[i];
+    std::cout << "uv__cam : " << uv_point(0) << " , "
+              << uv_point(1) << " , "
+              << uv_point(2) << std::endl;
+    std::cout << "xyz_dst : " << xyz_distorted(0) << " , "
+              << xyz_distorted(1) << " , "
+              << xyz_distorted(2) << std::endl;
+//    std::cout << "xyz_undistorted" << std::endl << xyz_undistorted << std::endl;
+
+    xyz.push_back(xyz_distorted); // nao estou a fazer distorcao
+    }
+
+
+    return xyz;
+
+}
+
+Eigen::Vector3d CamExtrinsicsCalibration::cameraPixelsToUndistortXYZPoints(Eigen::Vector3d &uv_cam)
+{
+    Eigen::Matrix3d cameraMatrix;
+    cameraMatrix << this->intrinsic_camera_matrix(0,0), 0, this->intrinsic_camera_matrix(0,2),
+                    0, this->intrinsic_camera_matrix(1,1), this->intrinsic_camera_matrix(1,2),
+                    0, 0, 1;
+    Eigen::Vector4d distCoeffs;
+    distCoeffs << this->distortion_camera_matrix(0),this->distortion_camera_matrix(1),
+                  this->distortion_camera_matrix(2),this->distortion_camera_matrix(3);
+
+    // passar de uv para xyz
+    Eigen::Vector3d xyz_distorted = cameraMatrix.inverse() * uv_cam;
+
+    std::cout << "xyz_distorted" << std::endl << xyz_distorted << std::endl;
+
+    return xyz_distorted;
+}
+
+
+Eigen::Vector3d CamExtrinsicsCalibration::confirmCalibration(Eigen::Vector3d uv_point){
+
+    //enter u,v coordinates
+
+    Eigen::Vector3d xyz_normalized =cameraPixelsToUndistortXYZPoints(uv_point);
+
+    Eigen::MatrixXd r = this->r_;
+    Eigen::Vector3d tc  = this->tc_;
+
+    Eigen::Vector3d world_point;
+    world_point = r.inverse() * xyz_normalized + (-r.inverse()*tc);
+
+            std::cout << "WORLD Pd : "
+                      << world_point(0) << " , "
+                      << world_point(1) << " , "
+                      << world_point(2) << std::endl;
+    return world_point;
+}
+
+void CamExtrinsicsCalibration::findRigidTransformation(std::vector<Eigen::Vector3d> xyz_world, std::vector<Eigen::Vector3d> xyz_cam,
+                    Eigen::MatrixXd &T)
+{
+    for (int i=0; i< 8; i++)
+    {
+        std::cout << "w" << i << " : \n" << xyz_world[i] << std::endl;
+        std::cout << "c" << i << " : \n" << xyz_cam[i] << std::endl;
+    }
+
+    std::vector<Eigen::Vector3d> xyz_world_temp = xyz_world;
+    std::vector<Eigen::Vector3d> xyz_cam_temp = xyz_cam;
+    // recover centroid from wlr and cam data
+    double n_points  = xyz_world_temp.size();
+    Eigen::Vector3d wld_centroid, cam_centroid;
+
+    for (int i=0; i< n_points; i++)
+    {
+        Eigen::Vector3d temp_world, temp_cam;
+        temp_world = xyz_world_temp[i];
+        temp_cam = xyz_cam_temp[i];
+        wld_centroid += temp_world;
+        cam_centroid += temp_cam;
+    }
+    wld_centroid /= n_points;
+    cam_centroid /= n_points;
+    for (int i=0; i< n_points; i++)
+    {
+        xyz_world_temp[i] -= wld_centroid;
+        xyz_cam_temp[i] -= cam_centroid;
+    }
+     std::cout << "wld_centroid" << std::endl << wld_centroid << std::endl;
+     std::cout << "cam_centroid" << std::endl << cam_centroid << std::endl;
+
+
+    // acumulation matrix H
+    Eigen::Matrix3d H, temp_matrix;
+    for (int i=0; i< n_points; i++){
+        temp_matrix = (xyz_world_temp[i]) * (xyz_cam_temp[i].transpose()) ;
+        H += temp_matrix;
+    }
+
+    std::cout << "H" << std::endl << H << std::endl;  // covariance matrix
+
+    // make R orthonormal
+    Eigen::JacobiSVD<Eigen::MatrixXd> svd(H, Eigen::ComputeThinU | Eigen::ComputeThinV);
+    Eigen::MatrixXd vut = svd.matrixV()*(svd.matrixU().transpose());
+    double d = (vut.determinant()<0)? -1.0 : 1.0;
+    Eigen::MatrixXd ident(3,3);
+    ident << 1,0,0,
+             0,1,0,
+             0,0,d;
+    Eigen::MatrixXd R = svd.matrixV()*ident*(svd.matrixU()).transpose();
+    Eigen::Vector3d t = -R*cam_centroid + wld_centroid;
+    T.resize(4,4);
+    T << R, t,
+         0, 0, 0, 1;
+
+    std::cout << "R" << std::endl << R << std::endl;
+    std::cout << "det R" << std::endl << R.determinant() << std::endl;
+    std::cout << "t" << std::endl << t << std::endl;
+    std::cout << "T" << std::endl << T << std::endl;
+
+}
+
+void CamExtrinsicsCalibration::transformHPoint(Eigen::Vector4d src, Eigen::Vector4d &dst, Eigen::MatrixXd T){
+
+    dst = T * src;
+}
+
+
+
+bool CamExtrinsicsCalibration::writeMatrixToFile(Eigen::MatrixXd &m, std::string filename){
+
+    if(m.cols() != 4 || m.rows() != 4)
+    {
+        std::cout << "Writing matrix to file failed. Wrong matrix size" << std::endl;
+        return false;
+    }
+
+    std::ofstream file(filename.c_str());
+
+    if(file.is_open()){
+        file << "Transformation matrix (Cam To World): \n" ;
+        for (int i=0 ; i< m.rows(); i++){
+            for (int j=0; j< m.cols(); j++){
+                if(j!= m.cols()-1)
+                    file << m(i,j) << "  ";
+                else
+                    file << m(i,j) << " \n ";
+            }
+        }
+        file << "End of Transformation matrix \n" ;
+    }
+    else
+    {
+        std::cout << "Writing matrix to file failed. Unable to open file." << std::endl;
+        return false;
+    }
+
+    return true;
+
+}
+
+bool CamExtrinsicsCalibration::readMatrixFromFile(Eigen::MatrixXd &m, std::string filename){
+
+    std::ifstream file(filename.c_str());
+    std::string line;
+    Eigen::MatrixXd T(4,4);
+    if(file.is_open()){
+
+        getline (file,line);
+        for (int i=0; i< 4; i++)
+        {
+          getline (file,line);
+          std::stringstream ss(line.c_str());
+          double a;
+          int counter =0;
+          while (ss >> a)
+          {
+            T(i, counter) = a;
+            counter = counter+1;
+          }
+        }
+        file.close();
+        std::cout << " matrix : " << std::endl << T << '\n';
+    }
+    else
+    {
+        std::cout << "Reading file failed. Unable to open file." << std::endl;
+        return false;
+    }
+
+    return true;
+}

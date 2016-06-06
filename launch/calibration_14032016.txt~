@@ -1,0 +1,69 @@
+FROM CALIBRATION
+
+[ INFO] [1458063464.673971092]: --------------------------------------
+[ INFO] [1458063464.673986513]: FINAL TF
+[ INFO] [1458063464.673998523]: --------------------------------------
+header: 
+  seq: 0
+  stamp: 1458063464.673960599
+  frame_id: world
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: -0.678364
+    y: -0.280358
+    z: 0.730795
+  rotation: 
+    x: -0.0774842
+    y: 0.261857
+    z: 0.309559
+    w: 0.910824
+
+<node pkg="tf" type="static_transform_publisher" name="camera_link_to_world" args="
+ -0.678364
+ -0.280358
+ 0.730795
+ -0.0774842
+ 0.261857
+ 0.309559
+ 0.910824
+ world camera_link 50" />
+
+WORLD -> TAG5
+- Translation: [-0.240, -0.137, 0.479]
+- Rotation: in Quaternion [0.504, -0.313, -0.406, 0.695]
+            in RPY (radian) [1.270, -0.027, -1.076]
+            in RPY (degree) [72.753, -1.523, -61.624]
+
+WORLD -> TAG1
+- Translation: [-0.246, -0.131, 0.482]
+- Rotation: in Quaternion [0.509, -0.301, -0.388, 0.707]
+            in RPY (radian) [1.265, -0.030, -1.027]
+            in RPY (degree) [72.454, -1.712, -58.823]
+
+WORLD -> CAMERA_LINK
+- Translation: [-0.680, -0.280, 0.731]
+- Rotation: in Quaternion [-0.078, 0.262, 0.309, 0.911]
+            in RPY (radian) [0.024, 0.552, 0.660]
+            in RPY (degree) [1.355, 31.649, 37.831]
+
+TAG1 -> TAG5
+- Translation: [0.009, -0.003, -0.003]
+- Rotation: in Quaternion [0.002, -0.022, -0.009, 1.000]
+            in RPY (radian) [0.005, -0.044, -0.018]
+            in RPY (degree) [0.263, -2.518, -1.040]
+
+CAMERA_LINK -> TAG1
+- Translation: [0.500, -0.147, 0.020]
+- Rotation: in Quaternion [-0.527, 0.586, 0.462, -0.406]
+            in RPY (radian) [1.816, 0.012, -1.685]
+            in RPY (degree) [104.043, 0.680, -96.562]
+
+CAMERA_LINK -> TAG5
+- Translation: [0.502, -0.156, 0.017]
+- Rotation: in Quaternion [-0.523, 0.590, 0.476, -0.388]
+            in RPY (radian) [1.819, 0.039, -1.722]
+            in RPY (degree) [104.210, 2.254, -98.645]
+
+
+

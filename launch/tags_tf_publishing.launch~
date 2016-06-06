@@ -1,0 +1,171 @@
+-1.57079632679
+<launch>
+
+<!-- static_transform_publisher x y z yaw pitch roll frame_id child_frame_id period_in_ms
+
+Publish a static coordinate transform to tf using an x/y/z offset in meters and yaw/pitch/roll in radians. (yaw is rotation about Z, pitch is rotation about Y, and roll is rotation about X). The period, in milliseconds, specifies how often to send a transform. 100ms (10hz) is a good value. -->
+
+<!-- R1 -->
+<!-- R1 ROTATION : 1.57079632679 1.57079632679 0 -->
+<node pkg="tf" type="static_transform_publisher" name="worldTB_to_tag102" 
+args="
+0.676 0 0.0193
+1.57079632679 1.57079632679 0
+worldTB 
+tag102
+1000"/> 
+<node pkg="tf" type="static_transform_publisher" name="worldTB_to_tag101" 
+args="
+0.676 0 0.0545
+1.57079632679 1.57079632679 0
+worldTB 
+tag101
+1000"/> 
+<node pkg="tf" type="static_transform_publisher" name="worldTB_to_tag100" 
+args="
+0.676 0 0.09
+1.57079632679 1.57079632679 0
+worldTB 
+tag100 
+1000"/> 
+<node pkg="tf" type="static_transform_publisher" name="worldTB_to_tag99" 
+args="
+0.676 0 0.125
+1.57079632679 1.57079632679 0
+worldTB 
+tag99 
+1000"/> 
+<node pkg="tf" type="static_transform_publisher" name="worldTB_to_tag98" 
+args="
+0.676 0 0.1565
+1.57079632679 1.57079632679 0
+worldTB 
+tag98 
+1000"/> 
+
+<!-- R2 -->
+<!-- R2 ROTATION : 3.14159265359 0 0 -->
+<node pkg="tf" type="static_transform_publisher" name="worldTB_to_tag7" 
+args="
+0.724 0.0245 0 
+3.14159265359 0 0
+worldTB 
+tag7 
+1000"/> 
+<node pkg="tf" type="static_transform_publisher" name="worldTB_to_tag14" 
+args="
+0.676 0.0245 0
+3.14159265359 0 0
+worldTB 
+tag14 
+1000"/> 
+<node pkg="tf" type="static_transform_publisher" name="worldTB_to_ta15" 
+args="
+0.676 0.073 0 
+3.14159265359 0 0
+worldTB 
+tag15 
+1000"/> 
+
+<!-- R3 -->
+<!-- R3 ROTATION : 1.57079632679 0 0 -->
+<node pkg="tf" type="static_transform_publisher" name="worldTB_to_tag10" 
+args="
+0.395 0.018 0 
+1.57079632679 0 0
+worldTB 
+tag10 
+1000"/> 
+<node pkg="tf" type="static_transform_publisher" name="worldTB_to_tag11" 
+args="
+0.395 0.0535 0
+1.57079632679 0 0
+worldTB 
+tag11
+1000"/> 
+<node pkg="tf" type="static_transform_publisher" name="worldTB_to_tag24" 
+args="
+0.43 0.018 0 
+1.57079632679 0 0
+worldTB 
+tag24 
+1000"/> 
+<node pkg="tf" type="static_transform_publisher" name="worldTB_to_tag25" 
+args="
+0.43 0.0535 0 
+1.57079632679 0 0
+worldTB 
+tag25 
+1000"/> 
+<node pkg="tf" type="static_transform_publisher" name="worldTB_to_tag48" 
+args="
+0.465 0.018 0 
+1.57079632679 0 0
+worldTB 
+tag48 
+1000"/> 
+<node pkg="tf" type="static_transform_publisher" name="worldTB_to_tag49" 
+args="
+0.465 0.0535 0  
+1.57079632679 0 0
+worldTB 
+tag49 
+1000"/> 
+<node pkg="tf" type="static_transform_publisher" name="worldTB_to_tag72" 
+args="
+0.5005 0.018 0 
+1.57079632679 0 0
+worldTB 
+tag72 
+1000"/> 
+<node pkg="tf" type="static_transform_publisher" name="worldTB_to_tag73" 
+args="
+0.5005 0.0535 0 
+1.57079632679 0 0
+worldTB 
+tag73 
+1000"/> 
+<node pkg="tf" type="static_transform_publisher" name="worldTB_to_tag96" 
+args="
+0.536 0.018 0
+1.57079632679 0 0
+worldTB 
+tag96 
+1000"/> 
+<node pkg="tf" type="static_transform_publisher" name="worldTB_to_tag97" 
+args="
+0.536 0.0535 0 
+1.57079632679 0 0
+worldTB 
+tag97 
+1000"/> 
+
+<!-- R4 -->
+<!-- R4 ROTATION : 3.14159265359 0 0 -->
+<node pkg="tf" type="static_transform_publisher" name="worldTB_to_tag8" 
+args="
+0.249 0.0245 0
+3.14159265359 0 0
+worldTB 
+tag8 
+1000"/> 
+<node pkg="tf" type="static_transform_publisher" name="worldTB_to_tag11" 
+args="
+0.249 0.0715 0 
+3.14159265359 0 0
+worldTB 
+tag11 
+1000"/> 
+<node pkg="tf" type="static_transform_publisher" name="worldTB_to_tag10" 
+args="
+0.296 0.0245 0
+3.14159265359 0 0
+worldTB 
+tag10 
+1000"/> 
+
+
+
+</launch>
+
+

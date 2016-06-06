@@ -1,0 +1,9895 @@
+*************************************************
+ header: 
+  seq: 0
+  stamp: 1459851561.330753282
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851561.354622267
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851561.354622267
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851582.264187534
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851583.274593275
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851586.737703451
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: 0.0518878
+    y: -0.0492311
+    z: 0.618309
+  rotation: 
+    x: 0.0385309
+    y: 0.989839
+    z: 0.135959
+    w: -0.0157859
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851586.767876428
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851587.780560599
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851587.397820135
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: 0.0518878
+    y: -0.0492311
+    z: 0.618309
+  rotation: 
+    x: 0.0385309
+    y: 0.989839
+    z: 0.135959
+    w: -0.0157859
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851589.775106599
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851590.787305065
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851587.397820135
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: 0.0518878
+    y: -0.0492311
+    z: 0.618309
+  rotation: 
+    x: 0.0385309
+    y: 0.989839
+    z: 0.135959
+    w: -0.0157859
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851592.781443726
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851593.796316234
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851587.397820135
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: 0.0518878
+    y: -0.0492311
+    z: 0.618309
+  rotation: 
+    x: 0.0385309
+    y: 0.989839
+    z: 0.135959
+    w: -0.0157859
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851595.783908865
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851596.799721433
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851587.397820135
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: 0.0518878
+    y: -0.0492311
+    z: 0.618309
+  rotation: 
+    x: 0.0385309
+    y: 0.989839
+    z: 0.135959
+    w: -0.0157859
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851598.786255609
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851599.802168101
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851598.697399488
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: 0.0518878
+    y: -0.0492311
+    z: 0.618309
+  rotation: 
+    x: 0.0385309
+    y: 0.989839
+    z: 0.135959
+    w: -0.0157859
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851601.790000662
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851602.804445656
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851598.697399488
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: 0.0518878
+    y: -0.0492311
+    z: 0.618309
+  rotation: 
+    x: 0.0385309
+    y: 0.989839
+    z: 0.135959
+    w: -0.0157859
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851604.792257542
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851605.806917057
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851598.697399488
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: 0.0518878
+    y: -0.0492311
+    z: 0.618309
+  rotation: 
+    x: 0.0385309
+    y: 0.989839
+    z: 0.135959
+    w: -0.0157859
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851607.795450422
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851608.811711041
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851609.256627473
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.269704
+    y: -0.00988966
+    z: 0.635154
+  rotation: 
+    x: 0.1869
+    y: 0.980758
+    z: 0.0390585
+    w: 0.0407032
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851610.799907116
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851611.825964703
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851609.256627473
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.269704
+    y: -0.00988966
+    z: 0.635154
+  rotation: 
+    x: 0.1869
+    y: 0.980758
+    z: 0.0390585
+    w: 0.0407032
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851613.806222761
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851614.829005427
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851614.107486775
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.269704
+    y: -0.00988966
+    z: 0.635154
+  rotation: 
+    x: 0.1869
+    y: 0.980758
+    z: 0.0390585
+    w: 0.0407032
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851616.814304752
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851617.834500922
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851616.909382813
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.269704
+    y: -0.00988966
+    z: 0.635154
+  rotation: 
+    x: 0.1869
+    y: 0.980758
+    z: 0.0390585
+    w: 0.0407032
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851619.816668930
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851620.836936756
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851616.909382813
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.269704
+    y: -0.00988966
+    z: 0.635154
+  rotation: 
+    x: 0.1869
+    y: 0.980758
+    z: 0.0390585
+    w: 0.0407032
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851622.818881656
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851623.839159570
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851616.909382813
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.269704
+    y: -0.00988966
+    z: 0.635154
+  rotation: 
+    x: 0.1869
+    y: 0.980758
+    z: 0.0390585
+    w: 0.0407032
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851625.821578119
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851626.745143207
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851626.627901757
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0898383
+    y: -0.0354918
+    z: 0.615512
+  rotation: 
+    x: 0.0337965
+    y: 0.98873
+    z: 0.13885
+    w: 0.0446186
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851628.825933204
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851629.747866703
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851630.575158559
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0898383
+    y: -0.0354918
+    z: 0.615512
+  rotation: 
+    x: 0.0337965
+    y: 0.98873
+    z: 0.13885
+    w: 0.0446186
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851631.828404982
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851632.750265014
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851631.055445176
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0898383
+    y: -0.0354918
+    z: 0.615512
+  rotation: 
+    x: 0.0337965
+    y: 0.98873
+    z: 0.13885
+    w: 0.0446186
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851634.830609337
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851635.752617418
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851631.055445176
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0898383
+    y: -0.0354918
+    z: 0.615512
+  rotation: 
+    x: 0.0337965
+    y: 0.98873
+    z: 0.13885
+    w: 0.0446186
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851637.835335757
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851638.755109988
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851638.785486921
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0898383
+    y: -0.0354918
+    z: 0.615512
+  rotation: 
+    x: 0.0337965
+    y: 0.98873
+    z: 0.13885
+    w: 0.0446186
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851640.838321194
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851641.757572919
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851638.785486921
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0898383
+    y: -0.0354918
+    z: 0.615512
+  rotation: 
+    x: 0.0337965
+    y: 0.98873
+    z: 0.13885
+    w: 0.0446186
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851643.841220571
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851644.760043503
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851638.785486921
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0898383
+    y: -0.0354918
+    z: 0.615512
+  rotation: 
+    x: 0.0337965
+    y: 0.98873
+    z: 0.13885
+    w: 0.0446186
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851646.843773990
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851647.762932835
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851647.802585431
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0898383
+    y: -0.0354918
+    z: 0.615512
+  rotation: 
+    x: 0.0337965
+    y: 0.98873
+    z: 0.13885
+    w: 0.0446186
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851649.746084436
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851650.765260359
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851647.802585431
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0898383
+    y: -0.0354918
+    z: 0.615512
+  rotation: 
+    x: 0.0337965
+    y: 0.98873
+    z: 0.13885
+    w: 0.0446186
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851652.749486017
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851653.767467711
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851647.802585431
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0898383
+    y: -0.0354918
+    z: 0.615512
+  rotation: 
+    x: 0.0337965
+    y: 0.98873
+    z: 0.13885
+    w: 0.0446186
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851655.764647599
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851656.769872360
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851657.426664657
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0898383
+    y: -0.0354918
+    z: 0.615512
+  rotation: 
+    x: 0.0337965
+    y: 0.98873
+    z: 0.13885
+    w: 0.0446186
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851658.767076763
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851659.772293265
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851657.426664657
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0898383
+    y: -0.0354918
+    z: 0.615512
+  rotation: 
+    x: 0.0337965
+    y: 0.98873
+    z: 0.13885
+    w: 0.0446186
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851661.770376788
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851662.775270934
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851657.426664657
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0898383
+    y: -0.0354918
+    z: 0.615512
+  rotation: 
+    x: 0.0337965
+    y: 0.98873
+    z: 0.13885
+    w: 0.0446186
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851664.774469352
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851665.777511771
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851665.443523193
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0804509
+    y: 0.0478128
+    z: 0.618649
+  rotation: 
+    x: -0.0247231
+    y: 0.993492
+    z: 0.0331997
+    w: 0.106114
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851667.776886518
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851668.779647756
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851665.443523193
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0804509
+    y: 0.0478128
+    z: 0.618649
+  rotation: 
+    x: -0.0247231
+    y: 0.993492
+    z: 0.0331997
+    w: 0.106114
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851670.779405634
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851671.782299047
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851671.618815982
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0804509
+    y: 0.0478128
+    z: 0.618649
+  rotation: 
+    x: -0.0247231
+    y: 0.993492
+    z: 0.0331997
+    w: 0.106114
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851673.782776214
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851674.784467540
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851671.618815982
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0804509
+    y: 0.0478128
+    z: 0.618649
+  rotation: 
+    x: -0.0247231
+    y: 0.993492
+    z: 0.0331997
+    w: 0.106114
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851676.784988390
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851677.786765318
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851671.618815982
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0804509
+    y: 0.0478128
+    z: 0.618649
+  rotation: 
+    x: -0.0247231
+    y: 0.993492
+    z: 0.0331997
+    w: 0.106114
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851679.787149465
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851680.790072929
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851671.618815982
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0804509
+    y: 0.0478128
+    z: 0.618649
+  rotation: 
+    x: -0.0247231
+    y: 0.993492
+    z: 0.0331997
+    w: 0.106114
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851682.789196491
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851683.794015494
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851671.618815982
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0804509
+    y: 0.0478128
+    z: 0.618649
+  rotation: 
+    x: -0.0247231
+    y: 0.993492
+    z: 0.0331997
+    w: 0.106114
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851685.793206935
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851686.797335580
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851685.885538628
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: 0.143439
+    y: -0.0293486
+    z: 0.680128
+  rotation: 
+    x: -0.0303061
+    y: 0.997991
+    z: 0.0177456
+    w: 0.0527349
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851688.796097627
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851689.799927846
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851689.295705862
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: 0.143439
+    y: -0.0293486
+    z: 0.680128
+  rotation: 
+    x: -0.0303061
+    y: 0.997991
+    z: 0.0177456
+    w: 0.0527349
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851691.798796375
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851692.809176102
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851692.358672292
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: 0.143439
+    y: -0.0293486
+    z: 0.680128
+  rotation: 
+    x: -0.0303061
+    y: 0.997991
+    z: 0.0177456
+    w: 0.0527349
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851694.802839726
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851695.815030802
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851696.109087483
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: 0.143439
+    y: -0.0293486
+    z: 0.680128
+  rotation: 
+    x: -0.0303061
+    y: 0.997991
+    z: 0.0177456
+    w: 0.0527349
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851697.807306733
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851698.826563155
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851699.508022177
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: 0.143439
+    y: -0.0293486
+    z: 0.680128
+  rotation: 
+    x: -0.0303061
+    y: 0.997991
+    z: 0.0177456
+    w: 0.0527349
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851700.811104396
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851701.830176444
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851699.508022177
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: 0.143439
+    y: -0.0293486
+    z: 0.680128
+  rotation: 
+    x: -0.0303061
+    y: 0.997991
+    z: 0.0177456
+    w: 0.0527349
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851703.825466628
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851704.832453307
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851699.508022177
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: 0.143439
+    y: -0.0293486
+    z: 0.680128
+  rotation: 
+    x: -0.0303061
+    y: 0.997991
+    z: 0.0177456
+    w: 0.0527349
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851706.831825094
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851707.834708277
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851699.508022177
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: 0.143439
+    y: -0.0293486
+    z: 0.680128
+  rotation: 
+    x: -0.0303061
+    y: 0.997991
+    z: 0.0177456
+    w: 0.0527349
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851709.837247048
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851710.837277090
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851711.107529276
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0504944
+    y: -0.056632
+    z: 0.657575
+  rotation: 
+    x: -0.02199
+    y: 0.988139
+    z: 0.112374
+    w: 0.102323
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851712.839874710
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851713.839471343
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851713.531473310
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0504944
+    y: -0.056632
+    z: 0.657575
+  rotation: 
+    x: -0.02199
+    y: 0.988139
+    z: 0.112374
+    w: 0.102323
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851715.842305302
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851716.842296424
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851716.923211179
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0504944
+    y: -0.056632
+    z: 0.657575
+  rotation: 
+    x: -0.02199
+    y: 0.988139
+    z: 0.112374
+    w: 0.102323
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851718.747594464
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851719.844380179
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851716.923211179
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0504944
+    y: -0.056632
+    z: 0.657575
+  rotation: 
+    x: -0.02199
+    y: 0.988139
+    z: 0.112374
+    w: 0.102323
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851721.751454250
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851722.746371691
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851720.935823418
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0504944
+    y: -0.056632
+    z: 0.657575
+  rotation: 
+    x: -0.02199
+    y: 0.988139
+    z: 0.112374
+    w: 0.102323
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851724.753587184
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851725.748619818
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851726.510432458
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0504944
+    y: -0.056632
+    z: 0.657575
+  rotation: 
+    x: -0.02199
+    y: 0.988139
+    z: 0.112374
+    w: 0.102323
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851727.760345605
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851728.750887319
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851727.195248382
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0504944
+    y: -0.056632
+    z: 0.657575
+  rotation: 
+    x: -0.02199
+    y: 0.988139
+    z: 0.112374
+    w: 0.102323
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851730.769725952
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851731.758936163
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851732.640358041
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0361949
+    y: -0.0692981
+    z: 0.654977
+  rotation: 
+    x: -0.0225357
+    y: 0.988513
+    z: 0.117987
+    w: 0.0917272
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851733.786514234
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851734.761301285
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851733.827759330
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0361949
+    y: -0.0692981
+    z: 0.654977
+  rotation: 
+    x: -0.0225357
+    y: 0.988513
+    z: 0.117987
+    w: 0.0917272
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851736.790936323
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851737.763512168
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851736.560503274
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0361949
+    y: -0.0692981
+    z: 0.654977
+  rotation: 
+    x: -0.0225357
+    y: 0.988513
+    z: 0.117987
+    w: 0.0917272
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851739.794339772
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851740.765938274
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851740.604068258
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0361949
+    y: -0.0692981
+    z: 0.654977
+  rotation: 
+    x: -0.0225357
+    y: 0.988513
+    z: 0.117987
+    w: 0.0917272
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851742.796695464
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851743.768418046
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851741.850260555
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0361949
+    y: -0.0692981
+    z: 0.654977
+  rotation: 
+    x: -0.0225357
+    y: 0.988513
+    z: 0.117987
+    w: 0.0917272
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851745.799481044
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851746.770728174
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851744.990165994
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0361949
+    y: -0.0692981
+    z: 0.654977
+  rotation: 
+    x: -0.0225357
+    y: 0.988513
+    z: 0.117987
+    w: 0.0917272
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851748.801712172
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851749.773031679
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851744.990165994
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0361949
+    y: -0.0692981
+    z: 0.654977
+  rotation: 
+    x: -0.0225357
+    y: 0.988513
+    z: 0.117987
+    w: 0.0917272
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851751.804176567
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851752.775810739
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851744.990165994
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0361949
+    y: -0.0692981
+    z: 0.654977
+  rotation: 
+    x: -0.0225357
+    y: 0.988513
+    z: 0.117987
+    w: 0.0917272
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851754.807523288
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851755.778546711
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851744.990165994
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0361949
+    y: -0.0692981
+    z: 0.654977
+  rotation: 
+    x: -0.0225357
+    y: 0.988513
+    z: 0.117987
+    w: 0.0917272
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851757.809998781
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851758.786827967
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851744.990165994
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0361949
+    y: -0.0692981
+    z: 0.654977
+  rotation: 
+    x: -0.0225357
+    y: 0.988513
+    z: 0.117987
+    w: 0.0917272
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851760.819104187
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851761.792497422
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851744.990165994
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0361949
+    y: -0.0692981
+    z: 0.654977
+  rotation: 
+    x: -0.0225357
+    y: 0.988513
+    z: 0.117987
+    w: 0.0917272
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851763.821293429
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851764.794754135
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851744.990165994
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0361949
+    y: -0.0692981
+    z: 0.654977
+  rotation: 
+    x: -0.0225357
+    y: 0.988513
+    z: 0.117987
+    w: 0.0917272
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851766.823495902
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851767.797266293
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851767.984006824
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.156905
+    y: -0.0198449
+    z: 0.540715
+  rotation: 
+    x: 0.0137127
+    y: 0.996187
+    z: 0.0445659
+    w: -0.0737408
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851769.834372122
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851770.802786223
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851769.238970864
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.156905
+    y: -0.0198449
+    z: 0.540715
+  rotation: 
+    x: 0.0137127
+    y: 0.996187
+    z: 0.0445659
+    w: -0.0737408
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851772.839809067
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851773.806844981
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851769.238970864
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.156905
+    y: -0.0198449
+    z: 0.540715
+  rotation: 
+    x: 0.0137127
+    y: 0.996187
+    z: 0.0445659
+    w: -0.0737408
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851775.842251378
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851776.810726422
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851769.238970864
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.156905
+    y: -0.0198449
+    z: 0.540715
+  rotation: 
+    x: 0.0137127
+    y: 0.996187
+    z: 0.0445659
+    w: -0.0737408
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851778.745807262
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851779.817237260
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851779.787084557
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.156905
+    y: -0.0198449
+    z: 0.540715
+  rotation: 
+    x: 0.0137127
+    y: 0.996187
+    z: 0.0445659
+    w: -0.0737408
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851781.748193942
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851782.823059972
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851780.856548559
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.156905
+    y: -0.0198449
+    z: 0.540715
+  rotation: 
+    x: 0.0137127
+    y: 0.996187
+    z: 0.0445659
+    w: -0.0737408
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851784.752893784
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851785.825422135
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851786.624473751
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.254772
+    y: -0.00776155
+    z: 0.648075
+  rotation: 
+    x: -0.0104693
+    y: 0.998895
+    z: 0.0456969
+    w: -0.00337825
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851787.755186839
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851788.827805637
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851788.018387611
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.254772
+    y: -0.00776155
+    z: 0.648075
+  rotation: 
+    x: -0.0104693
+    y: 0.998895
+    z: 0.0456969
+    w: -0.00337825
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851790.760163012
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851791.830837268
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851791.178451647
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.254772
+    y: -0.00776155
+    z: 0.648075
+  rotation: 
+    x: -0.0104693
+    y: 0.998895
+    z: 0.0456969
+    w: -0.00337825
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851793.762544454
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851794.833299344
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851795.291828170
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.254772
+    y: -0.00776155
+    z: 0.648075
+  rotation: 
+    x: -0.0104693
+    y: 0.998895
+    z: 0.0456969
+    w: -0.00337825
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851796.765939598
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851797.837789381
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851796.683564030
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.254772
+    y: -0.00776155
+    z: 0.648075
+  rotation: 
+    x: -0.0104693
+    y: 0.998895
+    z: 0.0456969
+    w: -0.00337825
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851799.768172094
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851800.843625990
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851796.683564030
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.254772
+    y: -0.00776155
+    z: 0.648075
+  rotation: 
+    x: -0.0104693
+    y: 0.998895
+    z: 0.0456969
+    w: -0.00337825
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851802.770489201
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851803.745999116
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851802.441864820
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.246355
+    y: 0.0161323
+    z: 0.621987
+  rotation: 
+    x: -0.0571662
+    y: 0.997211
+    z: 0.0477069
+    w: 0.0051708
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851805.772920962
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851806.749363057
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851807.387736237
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.246355
+    y: 0.0161323
+    z: 0.621987
+  rotation: 
+    x: -0.0571662
+    y: 0.997211
+    z: 0.0477069
+    w: 0.0051708
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851808.775203941
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851809.751430451
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851808.150728258
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.246355
+    y: 0.0161323
+    z: 0.621987
+  rotation: 
+    x: -0.0571662
+    y: 0.997211
+    z: 0.0477069
+    w: 0.0051708
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851811.777433552
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851812.753651370
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851811.865655691
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.246355
+    y: 0.0161323
+    z: 0.621987
+  rotation: 
+    x: -0.0571662
+    y: 0.997211
+    z: 0.0477069
+    w: 0.0051708
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851814.779798380
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851815.758083735
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851816.353876180
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.246355
+    y: 0.0161323
+    z: 0.621987
+  rotation: 
+    x: -0.0571662
+    y: 0.997211
+    z: 0.0477069
+    w: 0.0051708
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851817.782413525
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851818.764388349
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851818.041603556
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.258892
+    y: 0.0250228
+    z: 0.625014
+  rotation: 
+    x: -0.00442314
+    y: 0.999476
+    z: 0.0287679
+    w: 0.0141508
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851820.785462455
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851821.767607342
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851818.041603556
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.258892
+    y: 0.0250228
+    z: 0.625014
+  rotation: 
+    x: -0.00442314
+    y: 0.999476
+    z: 0.0287679
+    w: 0.0141508
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851823.787825424
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851824.770201009
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851822.754778383
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.258892
+    y: 0.0250228
+    z: 0.625014
+  rotation: 
+    x: -0.00442314
+    y: 0.999476
+    z: 0.0287679
+    w: 0.0141508
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851826.791007468
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851827.772437144
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851827.015346995
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.258892
+    y: 0.0250228
+    z: 0.625014
+  rotation: 
+    x: -0.00442314
+    y: 0.999476
+    z: 0.0287679
+    w: 0.0141508
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851829.793703692
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851830.774906548
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851827.015346995
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.258892
+    y: 0.0250228
+    z: 0.625014
+  rotation: 
+    x: -0.00442314
+    y: 0.999476
+    z: 0.0287679
+    w: 0.0141508
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851832.795908542
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851833.777450430
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851827.015346995
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.258892
+    y: 0.0250228
+    z: 0.625014
+  rotation: 
+    x: -0.00442314
+    y: 0.999476
+    z: 0.0287679
+    w: 0.0141508
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851835.798183509
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851836.779612719
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851827.015346995
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.258892
+    y: 0.0250228
+    z: 0.625014
+  rotation: 
+    x: -0.00442314
+    y: 0.999476
+    z: 0.0287679
+    w: 0.0141508
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851838.800731313
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851839.781770077
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851827.015346995
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.258892
+    y: 0.0250228
+    z: 0.625014
+  rotation: 
+    x: -0.00442314
+    y: 0.999476
+    z: 0.0287679
+    w: 0.0141508
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851841.805576287
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851842.784377183
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851827.015346995
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.258892
+    y: 0.0250228
+    z: 0.625014
+  rotation: 
+    x: -0.00442314
+    y: 0.999476
+    z: 0.0287679
+    w: 0.0141508
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851844.809723003
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851845.786735807
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851827.015346995
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.258892
+    y: 0.0250228
+    z: 0.625014
+  rotation: 
+    x: -0.00442314
+    y: 0.999476
+    z: 0.0287679
+    w: 0.0141508
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851847.812161820
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851848.789539101
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851827.015346995
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.258892
+    y: 0.0250228
+    z: 0.625014
+  rotation: 
+    x: -0.00442314
+    y: 0.999476
+    z: 0.0287679
+    w: 0.0141508
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851850.814644726
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851851.791773814
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851850.187769449
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.181281
+    y: 0.0314573
+    z: 0.626487
+  rotation: 
+    x: -0.034017
+    y: 0.997862
+    z: 0.0558107
+    w: -0.000581199
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851853.825924948
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851854.797656975
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851850.187769449
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.181281
+    y: 0.0314573
+    z: 0.626487
+  rotation: 
+    x: -0.034017
+    y: 0.997862
+    z: 0.0558107
+    w: -0.000581199
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851856.828356862
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851857.800559998
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851850.187769449
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.181281
+    y: 0.0314573
+    z: 0.626487
+  rotation: 
+    x: -0.034017
+    y: 0.997862
+    z: 0.0558107
+    w: -0.000581199
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851859.832228194
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851860.805480571
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851850.187769449
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.181281
+    y: 0.0314573
+    z: 0.626487
+  rotation: 
+    x: -0.034017
+    y: 0.997862
+    z: 0.0558107
+    w: -0.000581199
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851862.834444752
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851863.807882075
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851850.187769449
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.181281
+    y: 0.0314573
+    z: 0.626487
+  rotation: 
+    x: -0.034017
+    y: 0.997862
+    z: 0.0558107
+    w: -0.000581199
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851865.836811834
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851866.810406967
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851850.187769449
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.181281
+    y: 0.0314573
+    z: 0.626487
+  rotation: 
+    x: -0.034017
+    y: 0.997862
+    z: 0.0558107
+    w: -0.000581199
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851868.842555485
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851869.817133134
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851870.176696358
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.288425
+    y: 0.00790856
+    z: 0.705058
+  rotation: 
+    x: 0.16461
+    y: 0.975405
+    z: 0.0179853
+    w: 0.145481
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851871.844967794
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851872.819363413
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851873.549841393
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.288425
+    y: 0.00790856
+    z: 0.705058
+  rotation: 
+    x: 0.16461
+    y: 0.975405
+    z: 0.0179853
+    w: 0.145481
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851874.750659607
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851875.823256928
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851875.177820324
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.288425
+    y: 0.00790856
+    z: 0.705058
+  rotation: 
+    x: 0.16461
+    y: 0.975405
+    z: 0.0179853
+    w: 0.145481
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851877.766795909
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851878.835195463
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851875.177820324
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.288425
+    y: 0.00790856
+    z: 0.705058
+  rotation: 
+    x: 0.16461
+    y: 0.975405
+    z: 0.0179853
+    w: 0.145481
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851880.778449395
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851881.837420959
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851875.177820324
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.288425
+    y: 0.00790856
+    z: 0.705058
+  rotation: 
+    x: 0.16461
+    y: 0.975405
+    z: 0.0179853
+    w: 0.145481
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851883.780814518
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851884.841670207
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851875.177820324
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.288425
+    y: 0.00790856
+    z: 0.705058
+  rotation: 
+    x: 0.16461
+    y: 0.975405
+    z: 0.0179853
+    w: 0.145481
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851886.783144210
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851887.844036644
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851875.177820324
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.288425
+    y: 0.00790856
+    z: 0.705058
+  rotation: 
+    x: 0.16461
+    y: 0.975405
+    z: 0.0179853
+    w: 0.145481
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851889.785384306
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851890.746157929
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851875.177820324
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.288425
+    y: 0.00790856
+    z: 0.705058
+  rotation: 
+    x: 0.16461
+    y: 0.975405
+    z: 0.0179853
+    w: 0.145481
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851892.787599532
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851893.748362060
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851875.177820324
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.288425
+    y: 0.00790856
+    z: 0.705058
+  rotation: 
+    x: 0.16461
+    y: 0.975405
+    z: 0.0179853
+    w: 0.145481
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851895.789854135
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851896.750521550
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851875.177820324
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.288425
+    y: 0.00790856
+    z: 0.705058
+  rotation: 
+    x: 0.16461
+    y: 0.975405
+    z: 0.0179853
+    w: 0.145481
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851898.792032665
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851899.752723410
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851875.177820324
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.288425
+    y: 0.00790856
+    z: 0.705058
+  rotation: 
+    x: 0.16461
+    y: 0.975405
+    z: 0.0179853
+    w: 0.145481
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851901.794313807
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851902.754924252
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851875.177820324
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.288425
+    y: 0.00790856
+    z: 0.705058
+  rotation: 
+    x: 0.16461
+    y: 0.975405
+    z: 0.0179853
+    w: 0.145481
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851904.796486014
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851905.757098135
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851875.177820324
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.288425
+    y: 0.00790856
+    z: 0.705058
+  rotation: 
+    x: 0.16461
+    y: 0.975405
+    z: 0.0179853
+    w: 0.145481
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851907.798675250
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851908.759415865
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851875.177820324
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.288425
+    y: 0.00790856
+    z: 0.705058
+  rotation: 
+    x: 0.16461
+    y: 0.975405
+    z: 0.0179853
+    w: 0.145481
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851910.800968154
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851911.761573785
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851875.177820324
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.288425
+    y: 0.00790856
+    z: 0.705058
+  rotation: 
+    x: 0.16461
+    y: 0.975405
+    z: 0.0179853
+    w: 0.145481
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851913.803075184
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851914.763783410
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851875.177820324
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.288425
+    y: 0.00790856
+    z: 0.705058
+  rotation: 
+    x: 0.16461
+    y: 0.975405
+    z: 0.0179853
+    w: 0.145481
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851916.805324281
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851917.765942391
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851875.177820324
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.288425
+    y: 0.00790856
+    z: 0.705058
+  rotation: 
+    x: 0.16461
+    y: 0.975405
+    z: 0.0179853
+    w: 0.145481
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851919.807476715
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851920.768102958
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851875.177820324
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.288425
+    y: 0.00790856
+    z: 0.705058
+  rotation: 
+    x: 0.16461
+    y: 0.975405
+    z: 0.0179853
+    w: 0.145481
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851922.809726412
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851923.770284907
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851875.177820324
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.288425
+    y: 0.00790856
+    z: 0.705058
+  rotation: 
+    x: 0.16461
+    y: 0.975405
+    z: 0.0179853
+    w: 0.145481
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851925.811898243
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851926.772491767
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851875.177820324
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.288425
+    y: 0.00790856
+    z: 0.705058
+  rotation: 
+    x: 0.16461
+    y: 0.975405
+    z: 0.0179853
+    w: 0.145481
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851928.814182069
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851929.774657870
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851875.177820324
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.288425
+    y: 0.00790856
+    z: 0.705058
+  rotation: 
+    x: 0.16461
+    y: 0.975405
+    z: 0.0179853
+    w: 0.145481
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851931.826008939
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851932.780123028
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851875.177820324
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.288425
+    y: 0.00790856
+    z: 0.705058
+  rotation: 
+    x: 0.16461
+    y: 0.975405
+    z: 0.0179853
+    w: 0.145481
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851934.836069722
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851935.790084226
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851875.177820324
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.288425
+    y: 0.00790856
+    z: 0.705058
+  rotation: 
+    x: 0.16461
+    y: 0.975405
+    z: 0.0179853
+    w: 0.145481
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851937.838585556
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851938.794870817
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851875.177820324
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.288425
+    y: 0.00790856
+    z: 0.705058
+  rotation: 
+    x: 0.16461
+    y: 0.975405
+    z: 0.0179853
+    w: 0.145481
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851940.841228728
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851941.799169993
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851941.580123086
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0571957
+    y: -0.0302436
+    z: 0.663538
+  rotation: 
+    x: 0.13614
+    y: 0.989058
+    z: 0.0134099
+    w: 0.0552328
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851943.844104428
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851944.801574421
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851944.509816949
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0571957
+    y: -0.0302436
+    z: 0.663538
+  rotation: 
+    x: 0.13614
+    y: 0.989058
+    z: 0.0134099
+    w: 0.0552328
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851946.746557726
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851947.805716430
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851944.509816949
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0571957
+    y: -0.0302436
+    z: 0.663538
+  rotation: 
+    x: 0.13614
+    y: 0.989058
+    z: 0.0134099
+    w: 0.0552328
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851949.751750553
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851950.807975292
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851951.589580048
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0571957
+    y: -0.0302436
+    z: 0.663538
+  rotation: 
+    x: 0.13614
+    y: 0.989058
+    z: 0.0134099
+    w: 0.0552328
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851952.754149255
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851953.810510744
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851951.589580048
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.0571957
+    y: -0.0302436
+    z: 0.663538
+  rotation: 
+    x: 0.13614
+    y: 0.989058
+    z: 0.0134099
+    w: 0.0552328
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851955.756256246
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851956.812803422
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851956.713267039
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.118521
+    y: 0.213959
+    z: 0.652609
+  rotation: 
+    x: 0.641508
+    y: 0.744821
+    z: -0.166867
+    w: 0.0765771
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851958.761980150
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851959.815140162
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851956.713267039
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.118521
+    y: 0.213959
+    z: 0.652609
+  rotation: 
+    x: 0.641508
+    y: 0.744821
+    z: -0.166867
+    w: 0.0765771
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851961.765652366
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851962.817938490
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851956.713267039
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.118521
+    y: 0.213959
+    z: 0.652609
+  rotation: 
+    x: 0.641508
+    y: 0.744821
+    z: -0.166867
+    w: 0.0765771
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851964.768853071
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851965.820384395
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851965.664511992
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.118521
+    y: 0.213959
+    z: 0.652609
+  rotation: 
+    x: 0.641508
+    y: 0.744821
+    z: -0.166867
+    w: 0.0765771
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851967.772108074
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851968.824225789
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851965.664511992
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.118521
+    y: 0.213959
+    z: 0.652609
+  rotation: 
+    x: 0.641508
+    y: 0.744821
+    z: -0.166867
+    w: 0.0765771
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851970.777969786
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851971.834231896
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851965.664511992
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.118521
+    y: 0.213959
+    z: 0.652609
+  rotation: 
+    x: 0.641508
+    y: 0.744821
+    z: -0.166867
+    w: 0.0765771
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851973.780426511
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851974.836385851
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851965.664511992
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.118521
+    y: 0.213959
+    z: 0.652609
+  rotation: 
+    x: 0.641508
+    y: 0.744821
+    z: -0.166867
+    w: 0.0765771
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851976.782846600
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851977.839109421
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851965.664511992
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.118521
+    y: 0.213959
+    z: 0.652609
+  rotation: 
+    x: 0.641508
+    y: 0.744821
+    z: -0.166867
+    w: 0.0765771
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851979.785308156
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851980.746580968
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851965.664511992
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.118521
+    y: 0.213959
+    z: 0.652609
+  rotation: 
+    x: 0.641508
+    y: 0.744821
+    z: -0.166867
+    w: 0.0765771
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851982.792097608
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851983.748831784
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851984.499288109
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.144469
+    y: 0.291899
+    z: 0.631507
+  rotation: 
+    x: 0.573495
+    y: 0.805072
+    z: -0.147363
+    w: 0.0353101
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851985.794310431
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851986.750971104
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851985.844978081
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.144469
+    y: 0.291899
+    z: 0.631507
+  rotation: 
+    x: 0.573495
+    y: 0.805072
+    z: -0.147363
+    w: 0.0353101
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851988.796543181
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851989.753486915
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851985.844978081
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.144469
+    y: 0.291899
+    z: 0.631507
+  rotation: 
+    x: 0.573495
+    y: 0.805072
+    z: -0.147363
+    w: 0.0353101
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851991.798854606
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851992.755698019
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851992.462446302
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.151921
+    y: 0.363833
+    z: 0.646401
+  rotation: 
+    x: 0.55528
+    y: 0.809817
+    z: -0.176134
+    w: 0.0695508
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851994.801937196
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851995.757918048
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851993.988834439
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.151921
+    y: 0.363833
+    z: 0.646401
+  rotation: 
+    x: 0.55528
+    y: 0.809817
+    z: -0.176134
+    w: 0.0695508
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459851997.816762419
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459851998.760219471
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459851998.811072190
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.151921
+    y: 0.363833
+    z: 0.646401
+  rotation: 
+    x: 0.55528
+    y: 0.809817
+    z: -0.176134
+    w: 0.0695508
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852000.820047437
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852001.762433136
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852001.497043179
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.151921
+    y: 0.363833
+    z: 0.646401
+  rotation: 
+    x: 0.55528
+    y: 0.809817
+    z: -0.176134
+    w: 0.0695508
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852003.822442587
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852004.764676400
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852004.231758306
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.151921
+    y: 0.363833
+    z: 0.646401
+  rotation: 
+    x: 0.55528
+    y: 0.809817
+    z: -0.176134
+    w: 0.0695508
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852006.824683380
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852007.766936892
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852006.695399206
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.151921
+    y: 0.363833
+    z: 0.646401
+  rotation: 
+    x: 0.55528
+    y: 0.809817
+    z: -0.176134
+    w: 0.0695508
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852009.826945148
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852010.769134219
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852011.624771853
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852012.829162571
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852013.773249990
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852012.309826381
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852015.831450856
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852016.778271351
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852017.600830364
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852018.834025940
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852019.781915315
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852018.009910444
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852021.836472073
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852022.785014074
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852018.009910444
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852024.839039613
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852025.790515866
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852026.708068241
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852027.842900341
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852028.792737188
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852029.066047944
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852030.745463891
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852031.797533607
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852029.750527123
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852033.748400946
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852034.801026699
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852029.750527123
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852029.750527123
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852040.037313384
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852044.126657215
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852047.687100980
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852050.499687024
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852052.570579149
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852052.570579149
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852052.570579149
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852052.570579149
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852052.570579149
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852066.405304582
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852069.003928814
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852071.954955135
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852071.954955135
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852077.873829927
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852077.873829927
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852077.873829927
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852089.648798046
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852089.648798046
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852094.004213498
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852094.004213498
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852094.004213498
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852094.004213498
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852106.210905334
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852109.062041190
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852112.745719142
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852112.745719142
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852117.091377501
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852117.091377501
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852117.091377501
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852117.091377501
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852117.091377501
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852132.668891523
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852135.223890492
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852135.223890492
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852142.237359977
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852142.237359977
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852142.237359977
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852151.102447831
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852154.192590384
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852156.145168022
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ *************************************************
+ header: 
+  seq: 0
+  stamp: 1459852036.354427242
+  frame_id: camera_rgb_optical_frame_aux
+child_frame_id: camera_rgb_frame_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0
+    z: 0
+  rotation: 
+    x: 0.5
+    y: -0.5
+    z: 0.5
+    w: 0.5
+
+header: 
+  seq: 0
+  stamp: 1459852036.402940313
+  frame_id: camera_rgb_frame_aux
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: 0
+    y: 0.045
+    z: 0
+  rotation: 
+    x: 0
+    y: 0
+    z: 0
+    w: 1
+
+header: 
+  seq: 0
+  stamp: 1459852160.892965619
+  frame_id: tag1
+child_frame_id: camera_rgb_optical_frame_aux
+transform: 
+  translation: 
+    x: -0.141299
+    y: 0.141788
+    z: 0.58763
+  rotation: 
+    x: 0.604308
+    y: 0.791619
+    z: -0.081746
+    w: -0.0383359
+
+END*************************************************
+
+ 

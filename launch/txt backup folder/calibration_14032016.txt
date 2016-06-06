@@ -1,0 +1,32 @@
+FROM CALIBRATION
+
+[ INFO] [1458063464.673971092]: --------------------------------------
+[ INFO] [1458063464.673986513]: FINAL TF
+[ INFO] [1458063464.673998523]: --------------------------------------
+header: 
+  seq: 0
+  stamp: 1458063464.673960599
+  frame_id: world
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: -0.678364
+    y: -0.280358
+    z: 0.730795
+  rotation: 
+    x: -0.0774842
+    y: 0.261857
+    z: 0.309559
+    w: 0.910824
+
+<node pkg="tf" type="static_transform_publisher" name="camera_link_to_world" args="
+ -0.678364
+ -0.280358
+ 0.730795
+ -0.0774842
+ 0.261857
+ 0.309559
+ 0.910824
+ world camera_link 50" />
+
+

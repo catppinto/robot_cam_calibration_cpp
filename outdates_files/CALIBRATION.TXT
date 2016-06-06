@@ -1,0 +1,144 @@
+****************************************
+[ INFO] [1458239084.618662154]:  CHANGE_ROBOT_POSITION 
+[ INFO] [1458239084.629016686]: Move robot indeed
+[ INFO] [1458239084.629077713]: Going REST
+[ INFO] [1458239084.630157349]: --------------------------------------
+[ INFO] [1458239084.630197984]: Starting calibration
+[ INFO] [1458239084.630223321]: --------------------------------------
+[ INFO] [1458239084.630246019]:  tf_cameraToBaseFrame 
+ Size of tf_cameraToBase : 7/nheader: 
+  seq: 0
+  stamp: 1458238989.425604843
+  frame_id: world
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: -0.689861
+    y: -0.27512
+    z: 0.725799
+  rotation: 
+    x: -0.0778999
+    y: 0.253421
+    z: 0.301198
+    w: 0.915963
+
+header: 
+  seq: 0
+  stamp: 1458239006.464959787
+  frame_id: world
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: -0.683976
+    y: -0.282645
+    z: 0.735283
+  rotation: 
+    x: -0.0718903
+    y: 0.26212
+    z: 0.304235
+    w: 0.912998
+
+header: 
+  seq: 0
+  stamp: 1458239028.490908366
+  frame_id: world
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: -0.679469
+    y: -0.285316
+    z: 0.716476
+  rotation: 
+    x: -0.070384
+    y: 0.252083
+    z: 0.307814
+    w: 0.914741
+
+header: 
+  seq: 0
+  stamp: 1458239045.539042722
+  frame_id: world
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: -0.676946
+    y: -0.281193
+    z: 0.717642
+  rotation: 
+    x: -0.0760548
+    y: 0.254674
+    z: 0.310289
+    w: 0.912731
+
+header: 
+  seq: 0
+  stamp: 1458239062.561956365
+  frame_id: world
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: -0.671597
+    y: -0.287697
+    z: 0.719799
+  rotation: 
+    x: -0.0811635
+    y: 0.257065
+    z: 0.323748
+    w: 0.906928
+
+header: 
+  seq: 0
+  stamp: 1458239084.604524626
+  frame_id: world
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: -0.677714
+    y: -0.289434
+    z: 0.733055
+  rotation: 
+    x: -0.0820923
+    y: 0.2608
+    z: 0.321761
+    w: 0.906484
+
+roll : 0.0115809 pitch : 0.536553 yaw : 0.638572
+roll : 0.0331018 pitch : 0.549633 yaw : 0.652643
+roll : 0.0306081 pitch : 0.528816 yaw : 0.657491
+roll : 0.0223669 pitch : 0.537623 yaw : 0.661561
+roll : 0.0224957 pitch : 0.545483 yaw : 0.692038
+roll : 0.0223362 pitch : 0.553479 yaw : 0.688509
+roll : 0.0237483 pitch : 0.541931 yaw : 0.665136
+[ INFO] [1458239084.630968520]: --------------------------------------
+[ INFO] [1458239084.631000788]: FINAL TF
+[ INFO] [1458239084.631024580]: --------------------------------------
+header: 
+  seq: 0
+  stamp: 1458239084.630951781
+  frame_id: world
+child_frame_id: camera_link_aux
+transform: 
+  translation: 
+    x: -0.679927
+    y: -0.283568
+    z: 0.724676
+  rotation: 
+    x: -0.076564
+    y: 0.256713
+    z: 0.311533
+    w: 0.911693
+
+
+mean_of last 4 
+
+TRANS
+-0.6764315
+-0.28591
+0.721743
+ORI
+-0.0789597
+0.257326
+0.316845
+0.909482
+
+
